@@ -157,21 +157,6 @@ font-family: 'Poppins', sans-serif;
     .about-container{
         display: flex;
     }
-.top{
-    padding: 30px 10px;
-    font-size: 20px;
-    position: sticky;
-    left: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    background-color: var(--primary);
-    border: none;
-    transition: all 0.4s ease;
-    
-}
-.top:hover{
-    transform: translateY(-5px);
-}
     .img-about{
         flex: 1;
         display: flex;

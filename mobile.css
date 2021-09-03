@@ -1,0 +1,89 @@
+/* ----Navagation------- */
+.container{
+
+}
+.navbar{
+    position: relative;
+    flex-direction: column;
+}
+.navbar  ul li a{
+    font-size: 0.7rem;
+}
+.navbar .logo{
+    width: 40%;
+    margin: auto;
+}
+.navbar .logo img{
+    width: 30px;
+    margin-top: 4px;
+}
+
+.navbar ul{
+    text-align: left;
+    width: 100%;
+}
+.left-button .btn{
+    position: absolute;
+    top: 63%;
+    right: 38%;
+    padding: 8px 20px;
+    font-size: 0.6rem;
+}
+header{
+    width: 700px;
+    overflow: hidden;
+}
+
+
+/* Main-section */
+.main-intro{
+    width: 76%;
+   
+}
+.main-intro .person img{
+    width: 200px;
+}
+.right-text .name-main{
+    font-size: 1rem;
+    margin-bottom: -10px;
+    }
+.right-text .intro{
+font-size: 1.3rem;
+margin-bottom: -7px;
+}
+.right-text .about{
+font-size: 0.8rem;
+}
+.right-text span{
+    font-size: 1.3rem;
+}
+
+
+.main-intro .right-text{
+    margin-right: 193px;
+    margin-top: 58px;
+}
+
+/* About section */
+#about-section{
+    overflow: hidden;
+    flex-direction: column;
+}
+.img-about img{
+    width: 200px;
+}
+
+/* ---services section */
+#services-section{
+    overflow: hidden;
+}
+
+
+/* ---Client Section--- */
+#client-section{
+    overflow: hidden;
+}
+.col-2{
+    flex-basis: 60%;
+   
+}
